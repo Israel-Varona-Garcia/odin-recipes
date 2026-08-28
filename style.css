@@ -1,0 +1,63 @@
+/*Fonts for all the pages*/
+h1, h2 {
+    font-family: 'Brush Script MT', Arial;
+}
+
+li, figcaption, p, a {
+    font-family: Garamond, Arial;
+    font-size: 16px;
+}
+
+/*Specific style for the index page*/
+#principal-heading {
+    color: gold;
+    background-color: black;
+    text-align: center;
+}
+
+#directory-list {
+    background-color: rgb(226, 196, 157);
+    color: red;
+}
+
+/*Specific for the recipes pages*/
+img {
+    height: auto;
+    width: 500px;
+}
+
+figure {
+    width: 500px;
+    margin: auto;
+    border: 5px solid gold;
+    background-color: rgb(155, 155, 255);
+}
+
+figcaption {
+    text-align: center;
+}
+
+p, li {
+    text-align: justify;
+}
+
+.description {
+    background-color: rgb(74, 172, 74);
+    color: rgb(116, 0, 0);
+}
+
+.ingredients {
+    background-color: rgb(255, 178, 35);
+    color: rgb(0, 0, 255);
+}
+
+.steps {
+    background-color: rgb(252, 252, 88);
+    color: rgb(139, 30, 139);
+}
+
+#home-link {
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+}
